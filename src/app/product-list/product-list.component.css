@@ -1,0 +1,57 @@
+footer {
+  background: #363b3f;
+  padding-bottom: 20px;
+}
+
+footer p {
+  font-size: 12px;
+  color: #fff;
+  text-align: left;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+footer ul {
+  width: 100%;
+  text-align: left;
+  margin-top: 20px;
+  padding-left: 20px;
+}
+
+footer li {
+  display: inline-block;
+  margin: 4px;
+}
+
+footer li a {
+  display: block;
+  text-decoration: none;
+  border-bottom: medium none;
+  padding: 10px;
+  border-radius: 3px;
+  transition: all 0.3s ease-in 0s, all 1s ease 0s;
+  background-color: rgb(0, 0, 51);
+}
+
+footer .twitter:hover {
+  background-color: #00a9f1;
+}
+footer .youtube:hover {
+  background-color: #00a9f1;
+}
+footer .linkedin:hover {
+  background-color: #006db3;
+}
+
+.footer-section {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  left: 0;
+  background-color: rgb(0, 0, 51);
+}
+/*
+Copyright Google LLC. All Rights Reserved.
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at https://angular.io/license
+*/

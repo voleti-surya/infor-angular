@@ -1,0 +1,14 @@
+<h2>Product Details</h2>
+
+<div *ngIf="product">
+  <h3>{{ product.title }}</h3>
+  <h4>{{ product.answer }}</h4>
+  <p>{{ product.answer_type }}</p>
+  <button type="button" (click)="addToCart(product)">Buy</button>
+</div>
+
+<!-- 
+Copyright Google LLC. All Rights Reserved.
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at https://angular.io/license
+-->
